@@ -6,10 +6,11 @@ import njs from "../public/assets/nextjs.png"
 import html from "../public/assets/html.png"
 import react from "../public/assets/react.png"
 import tail from "../public/assets/tailwind.png"
+import arrow from "../public/assets/arrow.png"
 
 export default function About() {
   return (
-    <div className="bg-[#151514] h-[90%] w-full flex justify-center ">
+    <div id="about" className="bg-[#151514] h-[100%] w-full flex justify-center items-center ">
       <div className="flex flex-col w-[50%]">
         <h3 className="text-white text-3xl mt-6">About me</h3>
         <h3 className="text-white text-5xl mt-7">Who Am I</h3>
@@ -53,7 +54,12 @@ export default function About() {
             </Image>
             <h3 className="text-white font-semibold">Tailwind Css</h3>
           </div>
-           <button className="bg-[#dc2427] w-40 h-10 rounded-2xl text-white font-semibold shadow-[#484c51] shadow-md mt-5 cursor-pointer">Download CV</button>
+          <div className="w-full h-[10%] flex justify-between items-center">
+           <button className="bg-[#dc2427] hover:bg-[#bd2525] hover:shadow-lg w-40 h-10 rounded-2xl text-white font-semibold shadow-[#484c51] shadow-md mt-5 cursor-pointer animate-[pulse_1s_ease-in-out_infinite]">Download CV</button>
+            <a href="#nav"><Image src={arrow} width={40} height={30} alt="" className="animate-[pulse_1s_ease-in-out_infinite]">
+
+            </Image></a>
+          </div>
 
         </div>
 

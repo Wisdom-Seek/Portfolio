@@ -12,3 +12,12 @@
     background-color:  rgb(199, 41, 44);
     border-radius: 20px;
  }
+
+ @keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.8);
+  }
+}
