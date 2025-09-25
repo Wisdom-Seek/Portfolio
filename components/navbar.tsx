@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="flex flex-row gap-18 mr-10">
         <Link href="/#intro" className="text-white hover:text-[#dc2427] text-2xl cursor-pointer">Home</Link>
         <Link href="/#about" className="text-white text-2xl cursor-pointer hover:text-[rgb(220,36,39)]">About</Link>
-        <Link href="/#projects" className="text-white text-2xl cursor-pointer hover:text-[#dc2427]">Projects</Link>
+        <Link href="/#projects" className="text-white text-2xl cursor-pointer hover:text-[#dc2427]">Services</Link>
         <Link href="/#footer" className="text-white text-2xl cursor-pointer hover:text-[#dc2427]">Contact</Link>
       </div>
     </div>
